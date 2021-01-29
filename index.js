@@ -13,7 +13,7 @@ app.use('/user',userRouter)
 app.use('/blog',blogRouter)
 app.use('/comment',authMiddleware,commentRouter)
 
-///testaamira
+///testaami
 
 app.use((err, req, res, next) => {
     res.status(503).json({"error":err.message});
