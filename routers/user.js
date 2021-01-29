@@ -34,7 +34,8 @@ router.post('/login',async(req,res,next)=>{
         next(e);
     }
 });
-  
+ 
+ 
 
   // follow
  router.post('/follow',authMiddleware,async (req,res,next) => {
