@@ -37,7 +37,7 @@ router.post('/login',async(req,res,next)=>{
  
  
 
-  // follow user
+  // follow users
  router.post('/follow',authMiddleware,async (req,res,next) => {
     const {id}= req.body
   try{
